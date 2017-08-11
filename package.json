@@ -1,7 +1,7 @@
 {
-  "name": "happyfri",
+  "name": "simple",
   "version": "1.0.1",
-  "description": "vue2-happyfri",
+  "description": "vue2-simple",
   "author": "cangdu <1264889788@qq.com>",
   "private": true,
   "scripts": {
