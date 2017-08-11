@@ -2,7 +2,7 @@
   "name": "simple",
   "version": "1.0.1",
   "description": "vue2-simple",
-  "author": "cangdu <1264889788@qq.com>",
+  "author": "songran <songran_1@sina.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
