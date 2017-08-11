@@ -24,7 +24,8 @@ git@github.com:song-ran/vue2-simple.git
 npm install
 
 # 若提示node-sass（fsevents）安装失败
-  请在浏览器手动输入下载地址（https://github.com/sass/node-sass/releases/download/v4.5.3/win32-x64-57_binding.node）下载
+  请在浏览器手动输入下载地址
+  （https://github.com/sass/node-sass/releases/download/v4.5.3/win32-x64-57_binding.node）下载
   复制下载完成的文件所在路径 ==> 到项目根目录下按住Shift右键打开命令行窗口输入：
   set SASS_BINARY_PATH=D:/code/win32-x64-57_binding.node
   然后再输入：
