@@ -8,25 +8,33 @@
 
 >  如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎 PR 👍
 
->  开发环境 macOS 10.12.3  Chrome 56 nodejs 6.10.0
+>  开发环境 windows7  Chrome 56 nodejs 6.10.0 以上
 
->  这个项目主要用于 vue2 + vuex 的入门练习，另外推荐一个 vue2 比较复杂的大型项目，覆盖了vuejs大部分的知识点。目前项目已经完成。[地址在这里](https://github.com/bailicangdu/vue2-elm)
+>  这个项目主要用于 vue2 + vuex 的入门练习
 
 
 ## 项目运行（nodejs 6.0+）
 ``` bash
 # 克隆到本地
-git clone https://github.com/song-ran/vue2-happyfri.git
+git clone https://github.com/song-ran/vue2-simple.git
 
-git@github.com:song-ran/vue2-happyfri.git
+git@github.com:song-ran/vue2-simple.git
 
 # 安装依赖
 npm install
 
-# 开启本地服务器localhost:8088
+# 若提示node-sass（fsevents）安装失败
+  请在浏览器手动输入下载地址（https://github.com/sass/node-sass/releases/download/v4.5.3/win32-x64-57_binding.node）下载
+  复制下载完成的文件所在路径 ==> 到项目根目录下按住Shift右键打开命令行窗口输入：
+  set SASS_BINARY_PATH=D:/code/win32-x64-57_binding.node
+  然后再输入：
+  npm i node-sass -D --verbose
+  等待安装完成即可
+
+# 开启本地服务器(localhost:8080)
 npm run dev
 
-# 发布环境
+# 发布环境(生成编译后放入服务器的文件)
 npm run build
 ```
 
@@ -38,7 +46,7 @@ npm run build
 [demo地址](http://cangdu.org/happyfri/)（请用chrome手机模式预览）
 
 ### 移动端扫描下方二维码
-<img src='https://github.com/bailicangdu/vue2-happyfri/blob/master/src/images/ewm.png' width="300" height="300" />
+<img src='https://github.com/songran/vue2-simple/blob/master/src/images/ewm.png' width="300" height="300" />
 
 
 
