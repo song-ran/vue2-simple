@@ -45,10 +45,7 @@ npm run build
 # 效果演示
 
 
-[demo地址](http://cangdu.org/happyfri/)（请用chrome手机模式预览）
-
-### 移动端扫描下方二维码
-<img src='https://github.com/songran/vue2-simple/blob/master/src/images/ewm.png' width="300" height="300" />
+[demo地址](https://song-ran.github.io/vue2-simple/simple/index.html)（请用chrome手机模式预览）
 
 
 
